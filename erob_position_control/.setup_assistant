@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: erob_arm
+    relative_path: urdf/erob.urdf
+  srdf:
+    relative_path: config/eRobo3.srdf
+  package_settings:
+    author_name: Don
+    author_email: 1349138349@qq.com
+    generated_timestamp: 1724987468
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

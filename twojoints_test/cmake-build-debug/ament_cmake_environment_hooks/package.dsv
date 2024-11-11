@@ -1,0 +1,4 @@
+source;share/twojoints_test/local_setup.bash
+source;share/twojoints_test/local_setup.dsv
+source;share/twojoints_test/local_setup.sh
+source;share/twojoints_test/local_setup.zsh

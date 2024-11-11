@@ -1,0 +1,86 @@
+<robot name="eRobo3" version="1.0">
+  <joint name="Joint_1" type="revolute">
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-2.8973" soft_upper_limit="2.8973" />
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+    <parent link="base_link"/>
+    <child link="Link_1"/>
+    <axis xyz="0.00000 0.00000 1.00000"/>
+    <limit effort="87" lower="-2.9671" upper="2.9671" velocity="2.3925" />
+  </joint>
+  <joint name="Joint_2" type="revolute">
+    <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="-1.7628" soft_upper_limit="1.7628" />
+    <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.05300 0.14050"/>
+    <parent link="Link_1"/>
+    <child link="Link_2"/>
+    <axis xyz="0.00000 -1.00000 0.00000"/>
+    <limit effort="87" lower="-1.8326" upper="1.8326" velocity="2.3925" />
+  </joint>
+ 
+  <link name="Link_1">
+    <collision name="Link_1_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/Link_1.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00054" ixy="0.00000" ixz="0.00000" iyy="0.00052" iyz="0.00000" izz="0.00054"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00308 0.13617"/>
+      <mass value="0.50622"/>
+    </inertial>
+    <visual name="Link_1_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="#ffffffff"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/Link_1.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <link name="Link_2">
+    <collision name="Link_2_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/Link_2.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00157" ixy="0.00000" ixz="0.00000" iyy="0.00156" iyz="0.00000" izz="0.00119"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.04217 0.11937"/>
+      <mass value="1.16203"/>
+    </inertial>
+    <visual name="Link_2_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="#ffffffff"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/Link_2.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  
+  <link name="base_link">
+    <collision name="base_link_collision">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/base_link.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00083" ixy="0.00001" ixz="0.00001" iyy="0.00085" iyz="0.00003" izz="0.00110"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00095 -0.00172 0.03600"/>
+      <mass value="0.47602"/>
+    </inertial>
+    <visual name="base_link_visual">
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+      <material name="base"/>
+      <geometry>
+        <mesh filename="package://erob_arm/meshes/base_link.stl" scale="1.00000 1.00000 1.00000"/>
+      </geometry>
+    </visual>
+  </link>
+  <material name="#ffffffff">
+    <color rgba="0.50000 0.50000 0.50000 1.0000"/>
+  </material>
+    <material name="base">
+    <color rgba="0.40000 0.40000 0.40000 1.0000"/>
+  </material>
+</robot>

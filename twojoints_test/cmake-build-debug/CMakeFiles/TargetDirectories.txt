@@ -1,0 +1,9 @@
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/uninstall.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/twojoints_test_uninstall.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/test.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/install.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/install/local.dir
+/home/zero/IGH_EtherCAT/eRob_arm/src/twojoints_test/cmake-build-debug/CMakeFiles/install/strip.dir

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="eRobo3_ros2_control" params="name initial_positions_file">
+        <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+
+        <ros2_control name="EthercatDriver" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+                <plugin>ethercat_driver/EthercatDriver</plugin>
+                <param name="master_id">0</param>
+                <param name="control_frequency">1000</param>
+                 <!-- 2秒超时<param name="timeout">2000000</param> -->
+            </hardware>
+
+            <joint name="Joint_1">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_1']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                  <ec_module name="zero_err1">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">0</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module>
+            </joint>
+            
+            <joint name="Joint_2">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_2']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                <ec_module name="zero_err2">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">1</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module>
+            </joint>
+            
+            <joint name="Joint_3">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_3']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                <ec_module name="zero_err3">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">2</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module> 
+            </joint>
+            <joint name="Joint_4">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_4']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                <ec_module name="zero_err4">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">3</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module>                 
+            </joint>
+            <joint name="Joint_5">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_5']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                <ec_module name="zero_err5">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">4</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module>                 
+            </joint>
+            <joint name="Joint_6">
+                <command_interface name="position"/>
+                <state_interface name="position">
+                  <param name="initial_value">${initial_positions['Joint_6']}</param>
+                </state_interface>
+                <state_interface name="velocity"/>
+                
+                <ec_module name="zero_err6">
+		  <plugin>ethercat_generic_plugins/EcCiA402Drive</plugin>
+		  <param name="alias">0</param>
+		  <param name="position">5</param>
+	   	  <param name="mode_of_operation">8</param>
+		  <param name="slave_config">/home/zero/IGH_EtherCAT/eRob_arm/src/erobo3/config/zeroErr.yaml</param>
+		</ec_module>                 
+            </joint>
+
+        </ros2_control>
+    </xacro:macro>
+</robot>

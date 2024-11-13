@@ -81,7 +81,7 @@ CONFIG_SYSTEM_REVOCATION_KEYS=""
 ```
 <div class="MoveIt">
   <a>
-    <img src="/img/RT3.png" alt="RT3" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/ac83b01153d11553.png" alt="RT3" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 **Save and exit.**

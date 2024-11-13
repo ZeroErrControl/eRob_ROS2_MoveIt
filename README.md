@@ -192,7 +192,9 @@ It is easy to be installed by learning ROS2 documentation: [Humble](https://docs
 ## 6. ROS2_eRob_MoveIt
 
 ```bash
-git clone https://github.com/wdb-123/ROS2_eRob_MoveIt
+mkdir eRob_moveit/src
+cd  eRob_moveit/src
+git clone https://github.com/ZeroErrControl/ROS2_eRob_MoveIt
 cd ROS2_eRob_MoveIt
 colcon build 
 

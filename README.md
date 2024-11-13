@@ -12,7 +12,7 @@
 ```bash
 uname -a
 ```
-<div class="MoveIt"> <a> <img src="https://cdn-fusion.imgcdn.store/i/2024/ac83b01153d11553.png" alt="RT1" style="width:900px; height: auto;" /> </a> </div> ```
+<div class="MoveIt"> <a> <img src="https://cdn-fusion.imgcdn.store/i/2024/ac83b01153d11553.png" alt="RT1" style="width:900px; height: auto;" /> </a> </div> 
 
 
 ### 1.2  Install Necessary Packages
@@ -30,7 +30,7 @@ Download the Linux kernel from the [Link](https://mirrors.edge.kernel.org/pub/li
 
 <div class="MoveIt">
   <a>
-    <img src="/img/RT2.png" alt="RT2" style={{ width: '1200', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/f806094e23085a11.png" alt="RT2" style={{ width: '1200', height: 'auto' }} />
   </a>
 </div>
 
@@ -77,7 +77,7 @@ CONFIG_SYSTEM_REVOCATION_KEYS=""
 ```
 <div class="MoveIt">
   <a>
-    <img src="https://cdn-fusion.imgcdn.store/i/2024/ac83b01153d11553.png" alt="RT3" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/6d937b8f639f12d3.png" alt="RT3" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 **Save and exit.**
@@ -121,19 +121,19 @@ update-grub
 
 <div class="MoveIt">
   <a>
-    <img src="/img/RT5.png" alt="RT5" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/ceb860804d6fcc45.png" alt="RT5" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 
 <div class="MoveIt">
   <a>
-    <img src="/img/RT6.png" alt="RT6" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/602b07696a47f642.png" alt="RT6" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 
 <div class="MoveIt">
   <a>
-    <img src="/img/RT7.png" alt="RT7" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/50af0abbc109a2fa.png" alt="RT7" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 
@@ -148,7 +148,7 @@ cyclictest -t 5 -p 80 -i 1000
 
 <div class="MoveIt">
   <a>
-    <img src="/img/RT8.png" alt="RT8" style={{ width: '600', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/4c049cd7485dce21.png" alt="RT8" style={{ width: '600', height: 'auto' }} />
   </a>
 </div>
 
@@ -159,7 +159,7 @@ cyclictest -t 5 -p 80 -i 1000
 It is easy to be installed by learning ROS2 documentation: [Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 <div class="MoveIt">
   <a>
-    <img src="/img/humble.png" alt="humble" style={{ width: '800', height: 'auto' }} />
+    <img src="https://cdn-fusion.imgcdn.store/i/2024/0e908b9fac95de45.png" alt="humble" style={{ width: '800', height: 'auto' }} />
   </a>
 </div>
 ---

@@ -194,7 +194,7 @@ It is easy to be installed by learning ROS2 documentation: [Humble](https://docs
 ```bash
 mkdir eRob_moveit/src
 cd  eRob_moveit/src
-git clone https://github.com/ZeroErrControl/ROS2_eRob_MoveIt
+git clone https://github.com/ZeroErrControl/eRob_ROS2_MoveIt
 cd ROS2_eRob_MoveIt
 colcon build 
 

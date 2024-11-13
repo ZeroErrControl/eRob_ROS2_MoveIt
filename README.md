@@ -12,11 +12,7 @@
 ```bash
 uname -a
 ```
-<div class="MoveIt">
-  <a>
-    <img src="/img/RT1.png" alt="RT1" style={{ width: 'auto', height: '500' }} />
-  </a>
-</div>
+<div class="MoveIt"> <a> <img src="https://cdn-fusion.imgcdn.store/i/2024/ac83b01153d11553.png" alt="RT1" style="width: auto; height: 500px;" /> </a> </div> ```
 
 
 ### 1.2  Install Necessary Packages

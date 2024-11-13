@@ -195,10 +195,12 @@ It is easy to be installed by learning ROS2 documentation: [Humble](https://docs
 mkdir eRob_moveit/src
 cd  eRob_moveit/src
 git clone https://github.com/ZeroErrControl/eRob_ROS2_MoveIt
-cd ROS2_eRob_MoveIt
+cd ..
 colcon build 
 
 source ./install/seup.bash
 
-ros2 launch erob_position_control demo.launch.py
+ros2 launch erob_position_control demo.launch.py  
 ```
+
+

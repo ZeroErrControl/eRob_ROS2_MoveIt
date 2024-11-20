@@ -196,7 +196,10 @@ colcon build
 
 source ./install/seup.bash
 
-ros2 launch erob_position_control demo.launch.py  
+ros2 launch erob_position_control demo.launch.py
+ros2 launch erobo3_control demo.launch.py
+
+
 ```
 
 

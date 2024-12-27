@@ -2,7 +2,8 @@
 
 # eRob ROS2 MoveIt
 ---
-![The new versions of erob_position_control and erobo3_control have added timeout settings and provide a solution to address the issue where eRob cannot enter DC mode in the ethercat_ros2 interface.](https://cdn-fusion.imgcdn.store/i/2024/e4c73fbe2dcfa4fc.png)
+The new versions of erob_position_control and erobo3_control have added timeout settings and provide a solution to address the issue where eRob cannot enter DC mode in the ethercat_ros2 interface.
+[result](https://cdn-fusion.imgcdn.store/i/2024/e4c73fbe2dcfa4fc.png)
 ``` tips
 I removed the condition ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp check and forced the DC configuration code to execute:
 Retained the following sections:

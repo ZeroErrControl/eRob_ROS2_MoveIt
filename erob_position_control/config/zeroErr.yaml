@@ -6,7 +6,8 @@ auto_fault_reset: true
 auto_enable_set: true
 #dc_mode: true
 
-sdo: 
+sdo:
+  - {index: 0x6040, sub_index: 0, type: uint16, value: 0x80} # 清除错误
 
 rpdo: #PxPDO = receive PDO Mapping
   - index: 0x1600

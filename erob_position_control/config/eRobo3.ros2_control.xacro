@@ -8,7 +8,8 @@
                 <!-- By default, set up controllers for simulation. This won't work on real hardware -->
                 <plugin>ethercat_driver/EthercatDriver</plugin>
                 <param name="master_id">0</param>
-                <param name="control_frequency">1000</param>
+                <param name="control_frequency">200</param>
+                <param name="timeout">1000000000</param> 
             </hardware>
             
             <joint name="Joint_1">
@@ -31,7 +32,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">0</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erob_position_control/config/zeroErr.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr.yaml</param>
 		</ec_module>
             </joint>
 

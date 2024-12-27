@@ -36,7 +36,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">0</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr.yaml</param>
 		</ec_module>
             </joint>
             
@@ -60,7 +60,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">1</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr1.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr1.yaml</param>
 		</ec_module>
             </joint>
             
@@ -83,7 +83,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">2</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr.yaml</param>
 		</ec_module>
             </joint>
             
@@ -106,7 +106,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">3</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr1.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr1.yaml</param>
 		</ec_module>
             </joint>
             
@@ -130,7 +130,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">4</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr.yaml</param>
 		</ec_module>
             </joint>
             
@@ -153,7 +153,7 @@
 		  <param name="alias">0</param>
 		  <param name="position">5</param>
 	   	  <param name="mode_of_operation">8</param>
-		  <param name="slave_config">/home/erobman/IGH_EtherCAT/eRob_arm/src/erobo3_control/config/zeroErr.yaml</param>
+		  <param name="slave_config">/home/zeroerr/eRob_moveit/src/eRob_ROS2_MoveIt/erobo3_control/config/zeroErr.yaml</param>
 		</ec_module>
             </joint>
 

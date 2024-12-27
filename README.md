@@ -10,7 +10,7 @@ The new versions of erob_position_control and erobo3_control have added timeout 
   </a>
 </div>
 
-### I removed the condition `ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp` check and forced the DC configuration code to execute:
+### 1、 I removed the condition `ethercat_driver_ros2/ethercat_interface/src/ec_master.cpp` check and forced the DC configuration code to execute:
 Retained the following sections:
 ``` bash
 
@@ -26,6 +26,8 @@ ecrt_slave_config_dc(
   0);
 
 ```
+### 2、add parameter configuration of `timeout` like: <img width="534" alt="09613242b48b3b0e4e1d8929ce0792f" src="https://github.com/user-attachments/assets/10371f08-5497-4140-83af-a79eeba2f999" />
+
 
 # Installation Required Dependencies
 

@@ -26,7 +26,8 @@ ecrt_slave_config_dc(
   0);
 
 ```
-### 2、add parameter configuration of `timeout` like: <img width="534" alt="09613242b48b3b0e4e1d8929ce0792f" src="https://github.com/user-attachments/assets/10371f08-5497-4140-83af-a79eeba2f999" />
+### 2、add parameter configuration of `timeout` like:
+<img width="534" alt="09613242b48b3b0e4e1d8929ce0792f" src="https://github.com/user-attachments/assets/10371f08-5497-4140-83af-a79eeba2f999" />
 
 
 # Installation Required Dependencies

@@ -130,7 +130,7 @@ After entering the graphical configuration interface, perform the following oper
 **Remember to save and exit.**
 
 ```bash
-vi .config
+vim .config
 ```
 
 ``` txt

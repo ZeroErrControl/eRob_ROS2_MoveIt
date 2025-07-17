@@ -10,60 +10,6 @@ The new versions of erob_position_control and erobo3_control have added timeout 
   </a>
 </div>
 
-# Resolving eRob DC Mode and OP Mode Issues
-
-## 1. Problem Analysis
-The issues related to eRob failing to enter DC mode and OP mode are likely caused by:
-
-1. **eRob Failing to Enter DC Mode**
-   - The issue is potentially related to the version of `igh_ethercat` and modifications in `ros2_ethercat_driver`.
-2. **eRob Entering DC Mode but Failing to Enter OP Mode**
-   - This is likely due to incorrect ROS2 control cycle settings, which affect synchronization.
-
-## 2. Solution Steps
-
-### (1) Resolving the Issue of eRob Failing to Enter DC Mode
-#### **Upgrade EtherCAT Version**
-- Update `igh_ethercat` from version **1.5.2** to **1.6.3** to improve compatibility and DC mode handling.
-
-#### **Modify ros2_ethercat_driver**
-- In `ros2_ethercat_driver/ethercat_interface/src/ec_master.cpp`, remove the DC configuration check (approximately around line 100).
-- Ensure the DC configuration is executed by keeping the following code:
-
-```cpp
-struct timespec t;
-clock_gettime(CLOCK_MONOTONIC, &t);
-ecrt_master_application_time(master_, EC_NEWTIMEVAL2NANO(t));
-ecrt_slave_config_dc(
-  slave_info.config,
-  slave->assign_activate_dc_sync(),
-  interval_,
-  interval_ - (t.tv_nsec % (interval_)),
-  0,
-  0);
-```
-
-#### **Recompile and Verify**
-- Recompile `ros2_ethercat_driver` and the eRob application project.
-- After making these changes, verify that:
-  - Register **0x1C32** is set to **2**.
-  - Register **0x0981** is set to **3**.
-
-### (2) Resolving the Issue of eRob Entering DC Mode but Failing to Enter OP Mode
-#### **Adjust the ROS2 Control Cycle**
-- Set the **ROS2 control cycle to half of the EtherCAT slave control cycle** to ensure proper synchronization.
-- Incorrect cycle settings may prevent the system from entering OP mode successfully.
-
-### (3) Additional Improvements
-#### **Add Parameter Configuration for Timeout**
-- To improve reliability, add a timeout parameter to handle unexpected delays or failures.
-- Ensure the configuration settings allow for proper system recovery in case of synchronization issues.
-
-## 3. Final Results
-- **Steps 1, 2, and 3** resolve the issue of eRob failing to enter DC mode.
-- **Step 4** ensures eRob can enter OP mode and function correctly.
-
-
 
 # Installation Required Dependencies
 

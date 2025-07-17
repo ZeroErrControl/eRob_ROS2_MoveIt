@@ -1,6 +1,6 @@
 vendor_id: 0x5a65726f
 product_id: 0x00029252 
-assign-activate: 0x0300   #DC synch register
+assign_activate: 0x0300   #DC synch register
 watchdog_timer: true
 watchdog_timeout: 20000  # 单位：毫秒
 dc_mode: true

@@ -1,6 +1,6 @@
 vendor_id: 0x5a65726f
 product_id: 0x00029252 
-assign-activate: 0x0300   #DC synch register
+assign_activate: 0x0300   #DC synch register
 
 auto_fault_reset: true
 auto_enable_set: true

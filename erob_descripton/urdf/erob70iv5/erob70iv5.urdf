@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="erob70iv5">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.025383 6.0464E-05 0.00024581"
+        rpy="0 0 0" />
+      <mass
+        value="0.2119" />
+      <inertia
+        ixx="0.00016753"
+        ixy="-6.2241E-08"
+        ixz="1.1704E-07"
+        iyy="9.978E-05"
+        iyz="1.7691E-07"
+        izz="0.00010114" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627 0.627 0.627 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="fixed_link">
+    <inertial>
+      <origin
+        xyz="-0.017986 1.3781E-09 -1.4512E-09"
+        rpy="0 0 0" />
+      <mass
+        value="0.049057" />
+      <inertia
+        ixx="3.3131E-05"
+        ixy="4.5573E-13"
+        ixz="4.5781E-12"
+        iyy="1.8379E-05"
+        iyz="4.0712E-08"
+        izz="1.8461E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/fixed_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.1 0.1 0.1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/fixed_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="fixed_joint"
+    type="fixed">
+    <origin
+      xyz="0.0707999999999873 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="fixed_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="revolute_link">
+    <inertial>
+      <origin
+        xyz="-0.012813 7.6466E-07 -1.6829E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.014268" />
+      <inertia
+        ixx="4.1701E-06"
+        ixy="-1.6056E-10"
+        ixz="3.6294E-11"
+        iyy="5.2292E-06"
+        iyz="-2.1734E-10"
+        izz="5.2289E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/revolute_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.863 0.863 0.941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob70iv5/revolute_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="revolute_joint"
+    type="revolute">
+    <origin
+      xyz="0.0708 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="revolute_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="34"
+      velocity="1.57" />
+  </joint>
+</robot>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="erobo5">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="4.15365853402539E-05 -0.00111360675082866 0.0286594037084535"
+        rpy="0 0 0" />
+      <mass
+        value="0.814010825767868" />
+      <inertia
+        ixx="0.00121565213799357"
+        ixy="-3.70544621063181E-08"
+        ixz="-2.47448826200449E-06"
+        iyy="0.00127123640906485"
+        iyz="8.26489159194187E-07"
+        izz="0.0020993045392052" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.0268525791828213 -0.0034489307186774 0.0782091973808522"
+        rpy="0 0 0" />
+      <mass
+        value="0.691032299965591" />
+      <inertia
+        ixx="0.00129120424764208"
+        ixy="1.26786842912631E-06"
+        ixz="1.43413859055402E-05"
+        iyy="0.00130709035844175"
+        iyz="-1.522814784095E-06"
+        izz="0.00167223440583358" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0.0388"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="107"
+      velocity="1.57" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.00575889494037579 -0.224720017612792 0.0582297430495985"
+        rpy="0 0 0" />
+      <mass
+        value="2.70015520885" />
+      <inertia
+        ixx="0.0173666063574293"
+        ixy="-0.000316602967151044"
+        ixz="6.19567825001841E-07"
+        iyy="0.0049861800738253"
+        iyz="-5.41219665472544E-08"
+        izz="0.0181567779743432" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0.074395 -0.009505 0.0735"
+      rpy="-1.5708 0 -1.6979" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="107"
+      velocity="1.57" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="0.132194314239969 0.00633466391934305 0.0553907205350497"
+        rpy="0 0 0" />
+      <mass
+        value="2.02686493768701" />
+      <inertia
+        ixx="0.00274336260820363"
+        ixy="-0.000467212036975259"
+        ixz="1.03903130842512E-05"
+        iyy="0.0123850299666697"
+        iyz="5.44063741247788E-07"
+        izz="0.0130472340941311" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="-0.010911 -0.42486 -0.0153"
+      rpy="3.1416 0 -1.5708" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="89"
+      velocity="1.57" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="1.21869806655184E-05 -4.53835349392452E-05 0.0385471248349289"
+        rpy="0 0 0" />
+      <mass
+        value="0.147234800050303" />
+      <inertia
+        ixx="0.000161199759680692"
+        ixy="-1.64991795273823E-06"
+        ixz="-7.14925814976059E-06"
+        iyy="0.000126304590357696"
+        iyz="4.05726648598851E-07"
+        izz="0.000118837972639193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0.40054 0.019229 0.0211"
+      rpy="3.1416 0 -3.1416" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="87"
+      velocity="1.57" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="-4.99608855729361E-06 4.67841779598181E-05 0.0385470912694099"
+        rpy="0 0 0" />
+      <mass
+        value="0.147235636855498" />
+      <inertia
+        ixx="0.000159820457491137"
+        ixy="-6.99709514261411E-06"
+        ixz="6.99602804473822E-06"
+        iyy="0.00012768558844079"
+        iyz="-1.52673866283336E-06"
+        izz="0.000118839305752659" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="-0.038952 0.0019246 0.047"
+      rpy="-1.5708 -1.4439 1.5214" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="57"
+      velocity="1.57" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="0.000186150827969911 -5.19134298199164E-05 -0.0154454160793672"
+        rpy="0 0 0" />
+      <mass
+        value="0.241562517101885" />
+      <inertia
+        ixx="0.00011617237352942"
+        ixy="-6.64550880151976E-07"
+        ixz="-5.85165871978234E-08"
+        iyy="0.000113975958406992"
+        iyz="1.63758802713749E-08"
+        izz="0.000191298702333672" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erobo5/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0.070944 -0.014942 0.047"
+      rpy="1.5708 1.5207 1.3632" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="34"
+      velocity="1.57" />
+  </joint>
+</robot>

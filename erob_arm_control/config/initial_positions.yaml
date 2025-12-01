@@ -1,9 +1,0 @@
-# Default initial positions for eRobo3's ros2_control fake system
-
-initial_positions:
-  Joint_1: 0
-  Joint_2: 0
-  Joint_3: 0
-  Joint_4: 0
-  Joint_5: 0
-  Joint_6: 0

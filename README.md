@@ -207,8 +207,18 @@ source ./install/setup.bash
 
 ros2 launch erob_position_control demo.launch.py
 ros2 launch erobo3_control demo.launch.py
+ros2 launch erobo5 demo.launch.py
+ros2 launch erobo10 demo.launch.py
 
 
 ```
+
+---
+
+## 7. Connecting to Physical Robots (erobo5 & erobo10)
+
+Refer to erobo3_control for creation and modification.
+
+---
 
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="110T简化版">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.043815 -0.0099817 -1.9964E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.62467" />
+      <inertia
+        ixx="0.0017216"
+        ixy="1.4131E-05"
+        ixz="-3.1003E-07"
+        iyy="0.0011986"
+        iyz="7.6434E-07"
+        izz="0.001262" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob110t/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.627 0.627 0.627 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob110t/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="revolute_link">
+    <inertial>
+      <origin
+        xyz="-0.017948 2.9558E-05 -2.2408E-09"
+        rpy="0 0 0" />
+      <mass
+        value="0.15611" />
+      <inertia
+        ixx="0.00018425"
+        ixy="-3.6668E-08"
+        ixz="-6.5075E-11"
+        iyy="0.00013296"
+        iyz="5.1128E-11"
+        izz="0.00013313" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob110t/revolute_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.863 0.863 0.941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://erob_description/meshes/erob110t/revolute_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="revolute_joint"
+    type="continuous">
+    <origin
+      xyz="0.1164 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="revolute_link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="78"
+      velocity="1.57" />
+  </joint>
+</robot>

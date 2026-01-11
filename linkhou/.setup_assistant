@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: erob_description
+    relative_path: urdf/linkhou/linkhou.urdf
+  srdf:
+    relative_path: config/LR4_R560.srdf
+  package_settings:
+    author_name: wang
+    author_email: 2409324081@qq.com
+    generated_timestamp: 1767599394
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

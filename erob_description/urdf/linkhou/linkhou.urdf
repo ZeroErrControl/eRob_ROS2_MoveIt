@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+<robot name="LR4_R560">
+    <link name="robot_base">
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_19.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_20.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_21.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_22.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_23.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_24.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_25.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_26.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_27.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560">
+            <origin xyz="0.141673 -0.000165 0.081066" rpy="-3.060188 4.708523 -0.081638" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_robot_base_coll_28.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link1_visual">
+            <origin xyz="0.142949 0.000366 0.100323" rpy="-0.008230 4.712374 0.008229" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link1_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link1_visual_material">
+                <color rgba="0.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint1">
+        <axis xyz="0 0 1" />
+        <parent link="robot_base" />
+        <child link="LR4_R560_link2_respondable" />
+        <origin xyz="0.090228 -0.000044 0.200573" rpy="-3.141589 3.141593 3.141593" />
+    </joint>
+    <link name="LR4_R560_link2_respondable">
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_19.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_20.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_21.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_22.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_23.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_24.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_25.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_26.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_27.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link2_respondable">
+            <origin xyz="-0.002580 0.000034 0.090611" rpy="0.001927 3.163632 3.130605" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_respondable_coll_28.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link2_visual">
+            <origin xyz="0.000077 -0.000000 0.089681" rpy="3.141592 3.141589 3.141592" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link2_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link2_visual_material">
+                <color rgba="1.000000 0.600000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint2">
+        <axis xyz="0 0 1" />
+        <parent link="LR4_R560_link2_respondable" />
+        <child link="LR4_R560_link3_respondable" />
+        <origin xyz="-0.020000 -0.000000 0.144500" rpy="-1.570800 3.141593 -3.141592" />
+    </joint>
+    <link name="LR4_R560_link3_respondable">
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link3_respondable">
+            <origin xyz="0.003296 0.126862 0.000113" rpy="1.568994 3.131033 -3.129216" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_respondable_coll_15.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link3_visual">
+            <origin xyz="0.004963 0.126339 -0.000129" rpy="1.571017 3.153163 3.127580" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link3_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link3_visual_material">
+                <color rgba="1.000000 0.600000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint3">
+        <axis xyz="0 0 1" />
+        <parent link="LR4_R560_link3_respondable" />
+        <child link="LR4_R560_link4_respondable" />
+        <origin xyz="0.000000 0.260000 0.000000" rpy="-3.141592 3.141600 -0.000000" />
+    </joint>
+    <link name="LR4_R560_link4_respondable">
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link4_respondable">
+            <origin xyz="0.013688 0.002571 0.002943" rpy="2.569508 1.614796 2.498315" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link4_visual">
+            <origin xyz="0.011481 0.000933 0.004500" rpy="-1.546407 1.570815 -1.537021" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link4_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link4_visual_material">
+                <color rgba="1.000000 0.600000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint4">
+        <axis xyz="0 0 1" />
+        <parent link="LR4_R560_link4_respondable" />
+        <child link="LR4_R560_link5_respondable" />
+        <origin xyz="0.090184 -0.019152 0.000000" rpy="-1.570785 3.141592 -1.561411" />
+    </joint>
+    <link name="LR4_R560_link5_respondable">
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link5_respondable">
+            <origin xyz="-0.006137 -0.000332 0.112352" rpy="-0.002565 3.173645 -3.075990" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_respondable_coll_14.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link5_visual">
+            <origin xyz="-0.006347 -0.000195 0.112127" rpy="3.138413 3.183540 -3.081190" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link5_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link5_visual_material">
+                <color rgba="1.000000 0.600000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint5">
+        <axis xyz="0 0 1" />
+        <parent link="LR4_R560_link5_respondable" />
+        <child link="LR4_R560_link6_respondable" />
+        <origin xyz="0.000002 0.000000 0.190000" rpy="-1.570471 1.580184 -3.141265" />
+    </joint>
+    <link name="LR4_R560_link6_respondable">
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_19.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_20.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_21.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_22.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_23.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_24.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_25.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_26.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_27.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_28.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_29.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_30.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_31.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_32.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_33.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_34.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_35.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_36.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_37.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link6_respondable">
+            <origin xyz="-0.014049 0.000067 -0.000817" rpy="1.840752 1.577596 1.827882" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_respondable_coll_38.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link6_visual">
+            <origin xyz="-0.014749 0.000140 -0.001551" rpy="1.630457 1.570892 1.621053" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link6_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link6_visual_material">
+                <color rgba="1.000000 0.600000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="LR4_R560_joint6">
+        <axis xyz="0 0 1" />
+        <parent link="LR4_R560_link6_respondable" />
+        <child link="LR4_R560_link7_respondable" />
+        <origin xyz="-0.066997 0.000631 -0.000000" rpy="1.570793 3.141592 -1.580191" />
+    </joint>
+    <link name="LR4_R560_link7_respondable">
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_19.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_20.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_21.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_22.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_23.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_24.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_25.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_26.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_27.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_28.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_29.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_30.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_31.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_32.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_33.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_34.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_35.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_36.dae" />
+            </geometry>
+        </collision>
+        <collision name="LR4_R560_link7_respondable">
+            <origin xyz="-0.000154 0.000131 0.005256" rpy="-2.316304 1.571449 1.567710" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_respondable_coll_37.dae" />
+            </geometry>
+        </collision>
+        <visual name="LR4_R560_link7_visual">
+            <origin xyz="0.000012 0.000047 0.005250" rpy="-0.918595 1.570836 -1.164261" />
+            <geometry>
+                <mesh filename="package://erob_description/meshes/linkhou/linkhou_LR4_R560_link7_visual_vis_1.dae" />
+            </geometry>
+            <material name="LR4_R560_link7_visual_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>

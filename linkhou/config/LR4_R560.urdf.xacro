@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="LR4_R560">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import LR4_R560 urdf file -->
+    <xacro:include filename="$(find erob_description)/urdf/linkhou/linkhou.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="LR4_R560.ros2_control.xacro" />
+
+
+    <xacro:LR4_R560_ros2_control name="LR4_R560_EtherCAT" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

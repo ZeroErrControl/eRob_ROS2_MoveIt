@@ -10,7 +10,7 @@
                 <param name="master_id">0</param>
                 <param name="control_frequency">200</param>
                 <param name="timeout">1000000000</param> 
-		<!-- 2秒超时<param name="timeout">20000000</param> -->
+		            <!-- 2秒超时<param name="timeout">20000000</param> -->
                  <!-- 2秒超时<param name="timeout">2000000</param> -->
             </hardware>
             

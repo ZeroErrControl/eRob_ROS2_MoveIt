@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Assimp</author>
+      <authoring_tool>Assimp Exporter</authoring_tool>
+    </contributor>
+    <created>2025-12-31T17:19:58</created>
+    <modified>2025-12-31T17:19:58</modified>
+    <unit name="meter" meter="1" />
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="m0mat-fx" name="m0mat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0   0   0   7.300764999132297e-43</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.699999988079071   1   0.699999988079071   0</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.699999988079071   1   0.699999988079071   0</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25   0.25   0.25   7.300764999132297e-43</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="m0mat" name="m0mat">
+      <instance_effect url="#m0mat-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="meshId0" name="meshId0_name" >
+      <mesh>
+        <source id="meshId0-positions" name="meshId0-positions">
+          <float_array id="meshId0-positions-array" count="54"> 0.009888661094009876 0.03057551942765713 0.03628715127706528 0.01204781793057919 0.03049088642001152 0.02439322508871555 0.003063157666474581 0.02186830900609493 0.02886556088924408 0.01204781793057919 0.03049088642001152 0.02439322508871555 0.01404878124594688 0.02835424989461899 0.02704133093357086 0.003063157666474581 0.02186830900609493 0.02886556088924408 0.01404878124594688 0.02835424989461899 0.02704133093357086 0.009888661094009876 0.03057551942765713 0.03628715127706528 0.003063157666474581 0.02186830900609493 0.02886556088924408 0.009888661094009876 0.03057551942765713 0.03628715127706528 0.01400689128786325 0.03214894235134125 0.0276623722165823 0.01204781793057919 0.03049088642001152 0.02439322508871555 0.01400689128786325 0.03214894235134125 0.0276623722165823 0.01404878124594688 0.02835424989461899 0.02704133093357086 0.01204781793057919 0.03049088642001152 0.02439322508871555 0.01404878124594688 0.02835424989461899 0.02704133093357086 0.01400689128786325 0.03214894235134125 0.0276623722165823 0.009888661094009876 0.03057551942765713 0.03628715127706528 </float_array>
+          <technique_common>
+            <accessor count="18" offset="0" source="#meshId0-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="meshId0-vertices">
+          <input semantic="POSITION" source="#meshId0-positions" />
+        </vertices>
+        <polylist count="6" material="defaultMaterial">
+          <input offset="0" semantic="VERTEX" source="#meshId0-vertices" />
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Node_00000209DB3AD090"  name="Node_00000209DB3AD090" type="NODE">
+        <matrix sid="matrix">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#meshId0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="defaultMaterial" target="#m0mat">
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

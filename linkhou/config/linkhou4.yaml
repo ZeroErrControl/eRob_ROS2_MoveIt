@@ -1,0 +1,56 @@
+# CDHD Drive CSP Configuration  
+vendor_id: 0x000002e1  
+product_id: 0x00000000  
+assign_activate: 0x0000  # DC 同步寄存器  
+auto_fault_reset: false  # false = 通过命令接口 "reset_fault" 手动复位故障  
+  
+# SDO 启动配置  
+sdo:   
+  # - {index: 0x6060, sub_index: 0, type: int8, value: 8}   # 模式选择 8 = CSP
+  - {index: 0x60C2, sub_index: 1, type: int8, value: 10}  # 插值时间 10ms  
+  - {index: 0x60C2, sub_index: 2, type: int8, value: -3}  # 时间基数 10^-3s  
+
+# RPDO - 命令通道  
+rpdo:  
+  - index: 0x1600  
+    channels:  
+      - {index: 0x6040, sub_index: 0, type: uint16, command_interface: ~, default: 0}  
+      - {index: 0x6060, sub_index: 0, type: int8, command_interface: mode_of_operation, default: 1}
+    
+  - index: 0x1601  
+    channels:  
+      - {index: 0x607a, sub_index: 0, type: int32, command_interface: position,factor: 1078643.9789155643, default: .nan}  
+      - {index: 0x6081, sub_index: 0, type: int32, command_interface: ~, default: 0}  
+    
+  - index: 0x1602  
+    channels:  
+      - {index: 0x60ff, sub_index: 0, type: int32, command_interface: ~, default: 0}  
+    
+  - index: 0x1603  
+    channels:  
+      - {index: 0x6071, sub_index: 0, type: int16, command_interface: ~, default: 0}  
+      - {index: 0x60fe, sub_index: 1, type: int32, command_interface: ~, default: 0}  
+      - {index: 0x60b2, sub_index: 0, type: int16, command_interface: ~, default: 0}  
+  
+# TPDO - 状态通道  
+tpdo:  
+  - index: 0x1a00  
+    channels:  
+      - {index: 0x6041, sub_index: 0, type: uint16, state_interface: status_word}  
+      - {index: 0x6061, sub_index: 0, type: int8, state_interface: mode_of_operation_display}  
+      - {index: 0x6077, sub_index: 0, type: int16, state_interface: effort}  
+    
+  - index: 0x1a01  
+    channels:  
+      - {index: 0x6064, sub_index: 0, type: int32, state_interface: position, factor: 9.27089956971131e-07}  
+    
+  - index: 0x1a02  
+    channels:  
+      - {index: 0x6074, sub_index: 0, type: int16, state_interface: position_demand}  
+      - {index: 0x20f2, sub_index: 0, type: int16, state_interface: digital_inputs}  
+    
+  - index: 0x1a03  
+    channels:  
+      - {index: 0x60fd, sub_index: 0, type: int32, state_interface: following_error_actual}  
+      - {index: 0x20b6, sub_index: 0, type: int32, state_interface: latched_position}  
+      - {index: 0x60f4, sub_index: 0, type: int32, state_interface: following_error_time}

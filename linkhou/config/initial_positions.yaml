@@ -1,0 +1,9 @@
+# Default initial positions for LR4_R560's ros2_control fake system
+
+initial_positions:
+  LR4_R560_joint1: 0
+  LR4_R560_joint2: 0
+  LR4_R560_joint3: 0
+  LR4_R560_joint4: 0
+  LR4_R560_joint5: 0
+  LR4_R560_joint6: 0
